@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "group": "planks",
+  "ingredients": [
+    {
+      "item": "hell_vs_heaven:stripped_charcoal_log"
+    }
+  ],
+  "result": {
+    "count": 4,
+    "item": "hell_vs_heaven:stripped_charcoal_log"
+  }
+}

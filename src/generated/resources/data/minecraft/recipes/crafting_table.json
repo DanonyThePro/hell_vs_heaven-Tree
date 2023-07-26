@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "ct",
+  "key": {
+    "#": {
+      "item": "hell_vs_heaven:charcoal_planks"
+    }
+  },
+  "pattern": [
+    "##",
+    "##"
+  ],
+  "result": {
+    "item": "minecraft:crafting_table"
+  }
+}

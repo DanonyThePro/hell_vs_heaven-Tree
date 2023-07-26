@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "hell_vs_heaven:block/stripped_charcoal_log",
+    "side": "hell_vs_heaven:block/stripped_charcoal_log"
+  }
+}

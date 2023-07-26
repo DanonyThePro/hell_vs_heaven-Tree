@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "hell_vs_heaven:enderite_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "hell_vs_heaven:enderite"
+  }
+}

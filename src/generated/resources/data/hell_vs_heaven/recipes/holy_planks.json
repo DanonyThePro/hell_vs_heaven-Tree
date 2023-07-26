@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "group": "mod_planks",
+  "ingredients": [
+    {
+      "item": "hell_vs_heaven:holy_log"
+    }
+  ],
+  "result": {
+    "count": 4,
+    "item": "hell_vs_heaven:holy_planks"
+  }
+}

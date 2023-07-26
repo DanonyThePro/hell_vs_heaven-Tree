@@ -1,0 +1,39 @@
+{
+  "item.hell_vs_heaven.heartcleaver": "Heartcleaver",
+  "item.hell_vs_heaven.ruby": "Ruby",
+  "item.hell_vs_heaven.sapphire": "Sapphire",
+  "item.hell_vs_heaven.raw_fire_steel": "Raw Fire Steel",
+  "item.hell_vs_heaven.fire_steel": "Fire Steel Ingot",
+  "item.hell_vs_heaven.enderite": "Enderite Ingot",
+  "item.hell_vs_heaven.raw_enderite": "Raw Enderite",
+  "item.hell_vs_heaven.enderite_boots": "Enderite Boots",
+
+  "block.hell_vs_heaven.enderite_block": "Block Of Enderite",
+  "block.hell_vs_heaven.fire_steel_block": "Block Of Fire Steel",
+  "block.hell_vs_heaven.ruby_block": "Block Of Ruby",
+  "block.hell_vs_heaven.sapphire_block": "Block Of Sapphire",
+  "block.hell_vs_heaven.sapphire_ore": "Sapphire Ore",
+  "block.hell_vs_heaven.deepslate_sapphire_ore": "Deepslate SapphireOre",
+  "block.hell_vs_heaven.reinforced_obsidian_block": "Reinforced Obsidian",
+  "block.hell_vs_heaven.netherrack_fire_steel_ore": "Fire Steel Ore",
+  "block.hell_vs_heaven.endstone_enderite_ore": "Enderite Ore",
+  "block.hell_vs_heaven.deepslate_ruby_ore": "Deepslate Ruby Ore",
+  "block.hell_vs_heaven.ruby_ore": "Ruby Ore",
+
+  "block.hell_vs_heaven.charcoal_log": "Charcoal Log",
+  "block.hell_vs_heaven.charcoal_wood": "Charcoal Wood",
+  "block.hell_vs_heaven.charcoal_planks": "Charcoal Planks",
+  "block.hell_vs_heaven.charcoal_sapling": "Charcoal Sapling",
+  "block.hell_vs_heaven.stripped_charcoal_wood": "Stripped Charcoal Wood",
+  "block.hell_vs_heaven.stripped_charcoal_log": "Stripped Charcoal Log",
+
+  "block.hell_vs_heaven.holy_log": "Holy Log",
+  "block.hell_vs_heaven.holy_wood": "Holy Wood",
+  "block.hell_vs_heaven.holy_sapling": "Holy Sapling",
+  "block.hell_vs_heaven.holy_planks": "Holy Planks",
+  "block.hell_vs_heaven.holy_leaves": "Holy Leaves",
+  "block.hell_vs_heaven.stripped_holy_wood": "Stripped Holy Wood",
+  "block.hell_vs_heaven.stripped_holy_log": "stripped Holy Log",
+
+  "creativemodetab.cm_tab": "Hell vs Heaven"
+}

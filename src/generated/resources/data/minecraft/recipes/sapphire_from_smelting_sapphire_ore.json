@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 0.7,
+  "group": "sapphire",
+  "ingredient": {
+    "item": "hell_vs_heaven:sapphire_ore"
+  },
+  "result": "hell_vs_heaven:sapphire"
+}

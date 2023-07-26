@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 0.7,
+  "group": "fire_steel",
+  "ingredient": {
+    "item": "hell_vs_heaven:netherrack_fire_steel_ore"
+  },
+  "result": "hell_vs_heaven:fire_steel"
+}

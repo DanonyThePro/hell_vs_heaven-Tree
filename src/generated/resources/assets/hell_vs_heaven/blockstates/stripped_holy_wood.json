@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "hell_vs_heaven:block/stripped_holy_wood_horizontal",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "hell_vs_heaven:block/stripped_holy_wood"
+    },
+    "axis=z": {
+      "model": "hell_vs_heaven:block/stripped_holy_wood_horizontal",
+      "x": 90
+    }
+  }
+}
