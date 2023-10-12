@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/button_pressed",
+  "textures": {
+    "texture": "hell_vs_heaven:block/holy_planks"
+  }
+}

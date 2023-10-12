@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/button",
+  "textures": {
+    "texture": "hell_vs_heaven:block/holy_planks"
+  }
+}

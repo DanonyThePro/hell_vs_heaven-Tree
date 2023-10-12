@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "holy",
+  "ingredients": [
+    {
+      "item": "hell_vs_heaven:stripped_holy_wood"
+    }
+  ],
+  "result": {
+    "item": "hell_vs_heaven:holy_planks",
+    "count": 4
+  }
+}

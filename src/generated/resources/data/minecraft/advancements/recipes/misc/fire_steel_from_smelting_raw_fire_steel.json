@@ -30,5 +30,6 @@
     "recipes": [
       "minecraft:fire_steel_from_smelting_raw_fire_steel"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

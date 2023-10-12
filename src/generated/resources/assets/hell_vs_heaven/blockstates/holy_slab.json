@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "hell_vs_heaven:block/holy_slab"
+    },
+    "type=double": {
+      "model": "hell_vs_heaven:block/holy_planks"
+    },
+    "type=top": {
+      "model": "hell_vs_heaven:block/holy_slab_top"
+    }
+  }
+}

@@ -30,5 +30,6 @@
     "recipes": [
       "minecraft:fire_steel_from_smelting_netherrack_fire_steel_ore"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

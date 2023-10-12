@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "#is_nether",
+  "features": "hell_vs_heaven:nether_fire_steel_placed",
+  "step": "underground_ores"
+}

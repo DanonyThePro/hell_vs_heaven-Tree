@@ -1,0 +1,10 @@
+// 1.20.1	2023-10-11T17:11:55.8765849	Tags for minecraft:block mod id hell_vs_heaven
+35133e95f1c8fdd7a1c21afcc231fc0bffefb9a8 data/forge/tags/blocks/needs_netherite_tool.json
+734708727785f609ff0cfd92d8ee3886e7e4bf65 data/minecraft/tags/blocks/fences.json
+452a73e2c9177df8d17f2d4b4d19e510035f7f61 data/minecraft/tags/blocks/fence_gates.json
+8ff11d23113f4a68ecb42d2d519896551afa73b2 data/minecraft/tags/blocks/logs.json
+cb4a3aaf0d53adec5fef34e8a402420ba973dc28 data/minecraft/tags/blocks/mineable/axe.json
+1b829ce740a6173afe5be106516840707adeed36 data/minecraft/tags/blocks/mineable/pickaxe.json
+d59ed08f0d4b81e4ec39452c1f6c73eda3e5a8c3 data/minecraft/tags/blocks/needs_diamond_tool.json
+11ce227e92e68802e7a08f6b9c5ee9b4e0e5b114 data/minecraft/tags/blocks/needs_iron_tool.json
+d1b23bb5046998ea685f4d6c0801050acb484820 data/minecraft/tags/blocks/walls.json

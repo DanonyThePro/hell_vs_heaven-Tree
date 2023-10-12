@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "powered=false": {
+      "model": "hell_vs_heaven:block/charcoal_pressure_plate"
+    },
+    "powered=true": {
+      "model": "hell_vs_heaven:block/charcoal_pressure_plate_down"
+    }
+  }
+}

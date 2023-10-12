@@ -13,5 +13,6 @@
   ],
   "result": {
     "item": "hell_vs_heaven:enderite_block"
-  }
+  },
+  "show_notification": true
 }

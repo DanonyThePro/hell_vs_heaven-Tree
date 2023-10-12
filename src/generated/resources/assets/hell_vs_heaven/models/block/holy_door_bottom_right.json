@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/door_bottom_right",
+  "render_type": "minecraft:cutout",
+  "textures": {
+    "bottom": "hell_vs_heaven:block/holy_door_buttom",
+    "top": "hell_vs_heaven:block/holy_door_top"
+  }
+}

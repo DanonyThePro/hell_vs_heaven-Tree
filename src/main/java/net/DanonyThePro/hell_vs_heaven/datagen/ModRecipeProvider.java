@@ -3,10 +3,11 @@ package net.DanonyThePro.hell_vs_heaven.datagen;
 import net.DanonyThePro.hell_vs_heaven.block.ModBlocks;
 import net.DanonyThePro.hell_vs_heaven.item.ModItems;
 import net.minecraft.data.PackOutput;
-import net.minecraft.data.recipes.*;
-import net.minecraft.world.item.Items;
+import net.minecraft.data.recipes.FinishedRecipe;
+import net.minecraft.data.recipes.RecipeCategory;
+import net.minecraft.data.recipes.RecipeProvider;
+import net.minecraft.data.recipes.ShapedRecipeBuilder;
 import net.minecraft.world.level.ItemLike;
-import net.minecraft.world.level.block.Blocks;
 import net.minecraftforge.common.crafting.conditions.IConditionBuilder;
 
 import java.util.List;
@@ -45,28 +46,12 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
         nineBlockStorageRecipes(consumer, RecipeCategory.BUILDING_BLOCKS, ModItems.FIRE_STEEL.get(), RecipeCategory.MISC,
                 ModBlocks.FIRE_STEEL_BLOCK.get());
 
-        planksFromLogs(consumer,  ModBlocks.CHARCOAL_LOG.get(), ModBlocks.CHARCOAL_PLANKS.get(), ModBlocks.STRIPPED_CHARCOAL_LOG.get(), 4);
-        planksFromLogs(consumer,  ModBlocks.HOLY_LOG.get(), ModBlocks.HOLY_PLANKS.get(), ModBlocks.STRIPPED_HOLY_LOG.get(),4);
         woodFromLogs(consumer, ModBlocks.CHARCOAL_LOG.get(), ModBlocks.CHARCOAL_WOOD.get());
         woodFromLogs(consumer, ModBlocks.HOLY_LOG.get(), ModBlocks.HOLY_WOOD.get());
         woodFromLogs(consumer, ModBlocks.STRIPPED_CHARCOAL_LOG.get(), ModBlocks.STRIPPED_CHARCOAL_WOOD.get());
         woodFromLogs(consumer, ModBlocks.STRIPPED_HOLY_LOG.get(), ModBlocks.STRIPPED_HOLY_WOOD.get());
-        sticksFromPlanks(consumer, ModBlocks.CHARCOAL_PLANKS.get(), Items.STICK);
-        ctFromPlanks(consumer, ModBlocks.CHARCOAL_PLANKS.get(), Blocks.CRAFTING_TABLE);
     }
-    protected void planksFromLogs(Consumer<FinishedRecipe> consumer, ItemLike logInput, ItemLike plankOutput, ItemLike strippedLogInput, int planksCount) {
 
-        ShapelessRecipeBuilder.shapeless(RecipeCategory.BUILDING_BLOCKS, plankOutput, planksCount)
-                .requires(strippedLogInput)
-                .unlockedBy("has_stripped_logs", has(strippedLogInput))
-                .save(consumer);
-
-        ShapelessRecipeBuilder.shapeless(RecipeCategory.BUILDING_BLOCKS, plankOutput, planksCount)
-                .requires(logInput)
-                .unlockedBy("has_logs", has(logInput))
-                .save(consumer);
-
-    }
     protected static void woodFromLogs(Consumer<FinishedRecipe> consumer, ItemLike input, ItemLike output) {
         ShapedRecipeBuilder.shaped(RecipeCategory.BUILDING_BLOCKS, output, 3)
                 .define('#', input)
@@ -74,24 +59,6 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .pattern("##")
                 .group("bark")
                 .unlockedBy("has_log", has(input))
-                .save(consumer);
-    }
-    protected static void ctFromPlanks(Consumer<FinishedRecipe> consumer, ItemLike input, ItemLike output) {
-        ShapedRecipeBuilder.shaped(RecipeCategory.BUILDING_BLOCKS, output)
-                .define('#', input)
-                .pattern("##")
-                .pattern("##")
-                .group("ct")
-                .unlockedBy("has_planks", has(input))
-                .save(consumer);
-    }
-    protected static void sticksFromPlanks(Consumer<FinishedRecipe> consumer, ItemLike input, ItemLike output) {
-        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, output, 4)
-                .define('#', input)
-                .pattern("#")
-                .pattern("#")
-                .group("bark")
-                .unlockedBy("has_planks", has(input))
                 .save(consumer);
     }
 }

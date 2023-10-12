@@ -1,0 +1,32 @@
+{
+  "values": [
+    "hell_vs_heaven:charcoal_log",
+    "hell_vs_heaven:charcoal_wood",
+    "hell_vs_heaven:charcoal_planks",
+    "hell_vs_heaven:stripped_charcoal_log",
+    "hell_vs_heaven:stripped_charcoal_wood",
+    "hell_vs_heaven:charcoal_door",
+    "hell_vs_heaven:charcoal_trapdoor",
+    "hell_vs_heaven:charcoal_button",
+    "hell_vs_heaven:charcoal_stairs",
+    "hell_vs_heaven:charcoal_slab",
+    "hell_vs_heaven:charcoal_pressure_plate",
+    "hell_vs_heaven:charcoal_fence",
+    "hell_vs_heaven:charcoal_fence_gate",
+    "hell_vs_heaven:charcoal_wall",
+    "hell_vs_heaven:holy_log",
+    "hell_vs_heaven:holy_wood",
+    "hell_vs_heaven:holy_planks",
+    "hell_vs_heaven:stripped_holy_log",
+    "hell_vs_heaven:stripped_holy_wood",
+    "hell_vs_heaven:holy_door",
+    "hell_vs_heaven:holy_trapdoor",
+    "hell_vs_heaven:holy_button",
+    "hell_vs_heaven:holy_stairs",
+    "hell_vs_heaven:holy_slab",
+    "hell_vs_heaven:holy_pressure_plate",
+    "hell_vs_heaven:holy_fence",
+    "hell_vs_heaven:holy_fence_gate",
+    "hell_vs_heaven:holy_wall"
+  ]
+}

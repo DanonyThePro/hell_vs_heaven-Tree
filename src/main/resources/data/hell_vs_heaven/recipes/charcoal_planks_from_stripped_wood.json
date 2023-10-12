@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "chacoal",
+  "ingredients": [
+    {
+      "item": "hell_vs_heaven:stripped_charcoal_wood"
+    }
+  ],
+  "result": {
+    "item": "hell_vs_heaven:charcoal_planks",
+    "count": 4
+  }
+}

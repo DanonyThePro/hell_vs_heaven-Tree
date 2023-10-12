@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "hell_vs_heaven:block/charcoal_slab"
+    },
+    "type=double": {
+      "model": "hell_vs_heaven:block/charcoal_planks"
+    },
+    "type=top": {
+      "model": "hell_vs_heaven:block/charcoal_slab_top"
+    }
+  }
+}

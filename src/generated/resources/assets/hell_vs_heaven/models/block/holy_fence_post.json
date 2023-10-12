@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/fence_post",
+  "textures": {
+    "texture": "hell_vs_heaven:block/holy_planks"
+  }
+}

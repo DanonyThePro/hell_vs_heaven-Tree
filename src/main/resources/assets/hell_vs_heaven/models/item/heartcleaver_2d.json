@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "hell_vs_heaven:item/heartcleaver_2d"
+  }
+}

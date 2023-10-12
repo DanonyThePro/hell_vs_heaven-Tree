@@ -30,5 +30,6 @@
     "recipes": [
       "hell_vs_heaven:charcoal_wood"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

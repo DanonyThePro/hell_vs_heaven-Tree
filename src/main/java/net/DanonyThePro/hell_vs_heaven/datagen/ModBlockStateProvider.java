@@ -4,8 +4,7 @@ import net.DanonyThePro.hell_vs_heaven.Hell_vs_Heaven;
 import net.DanonyThePro.hell_vs_heaven.block.ModBlocks;
 import net.minecraft.data.PackOutput;
 import net.minecraft.resources.ResourceLocation;
-import net.minecraft.world.level.block.Block;
-import net.minecraft.world.level.block.RotatedPillarBlock;
+import net.minecraft.world.level.block.*;
 import net.minecraftforge.client.model.generators.BlockStateProvider;
 import net.minecraftforge.common.data.ExistingFileHelper;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -47,7 +46,15 @@ public class ModBlockStateProvider extends BlockStateProvider {
         simpleBlockItem(ModBlocks.CHARCOAL_WOOD.get(), models().withExistingParent("hell_vs_heaven:charcoal_wood", "minecraft:block/cube_column"));
         simpleBlockItem(ModBlocks.STRIPPED_CHARCOAL_LOG.get(), models().withExistingParent("hell_vs_heaven:stripped_charcoal_log", "minecraft:block/cube_column"));
         simpleBlockItem(ModBlocks.STRIPPED_CHARCOAL_WOOD.get(), models().withExistingParent("hell_vs_heaven:stripped_charcoal_wood", "minecraft:block/cube_column"));
-
+        stairsBlock(((StairBlock) ModBlocks.CHARCOAL_STAIRS.get()), blockTexture(ModBlocks.CHARCOAL_PLANKS.get()));
+        slabBlock(((SlabBlock) ModBlocks.CHARCOAL_SLAB.get()), blockTexture(ModBlocks.CHARCOAL_PLANKS.get()), blockTexture(ModBlocks.CHARCOAL_PLANKS.get()));
+        buttonBlock(((ButtonBlock) ModBlocks.CHARCOAL_BUTTON.get()), blockTexture(ModBlocks.CHARCOAL_PLANKS.get()));
+        pressurePlateBlock(((PressurePlateBlock) ModBlocks.CHARCOAL_PRESSURE_PLATE.get()), blockTexture(ModBlocks.CHARCOAL_PLANKS.get()));
+        fenceBlock(((FenceBlock) ModBlocks.CHARCOAL_FENCE.get()), blockTexture(ModBlocks.CHARCOAL_PLANKS.get()));
+        fenceGateBlock(((FenceGateBlock) ModBlocks.CHARCOAL_FENCE_GATE.get()), blockTexture(ModBlocks.CHARCOAL_PLANKS.get()));
+        wallBlock(((WallBlock) ModBlocks.CHARCOAL_WALL.get()), blockTexture(ModBlocks.CHARCOAL_PLANKS.get()));
+        doorBlockWithRenderType(((DoorBlock) ModBlocks.CHARCOAL_DOOR.get()), modLoc("block/charcoal_door_buttom"), modLoc("block/charcoal_door_top"), "cutout");
+        trapdoorBlockWithRenderType(((TrapDoorBlock) ModBlocks.CHARCOAL_TRAPDOOR.get()), modLoc("block/charcoal_trapdoor"), true, "cutout");
 
         logBlock(((RotatedPillarBlock) ModBlocks.HOLY_LOG.get()));
         axisBlock((RotatedPillarBlock) ModBlocks.HOLY_WOOD.get(), blockTexture(ModBlocks.HOLY_LOG.get()), blockTexture(ModBlocks.HOLY_LOG.get()));
@@ -62,6 +69,17 @@ public class ModBlockStateProvider extends BlockStateProvider {
         simpleBlockItem(ModBlocks.HOLY_WOOD.get(), models().withExistingParent("hell_vs_heaven:holy_wood", "minecraft:block/cube_column"));
         simpleBlockItem(ModBlocks.STRIPPED_HOLY_LOG.get(), models().withExistingParent("hell_vs_heaven:stripped_holy_log", "minecraft:block/cube_column"));
         simpleBlockItem(ModBlocks.STRIPPED_HOLY_WOOD.get(), models().withExistingParent("hell_vs_heaven:stripped_holy_wood", "minecraft:block/cube_column"));
+        stairsBlock(((StairBlock) ModBlocks.HOLY_STAIRS.get()), blockTexture(ModBlocks.HOLY_PLANKS.get()));
+        slabBlock(((SlabBlock) ModBlocks.HOLY_SLAB.get()), blockTexture(ModBlocks.HOLY_PLANKS.get()), blockTexture(ModBlocks.HOLY_PLANKS.get()));
+        buttonBlock(((ButtonBlock) ModBlocks.HOLY_BUTTON.get()), blockTexture(ModBlocks.HOLY_PLANKS.get()));
+        pressurePlateBlock(((PressurePlateBlock) ModBlocks.HOLY_PRESSURE_PLATE.get()), blockTexture(ModBlocks.HOLY_PLANKS.get()));
+        fenceBlock(((FenceBlock) ModBlocks.HOLY_FENCE.get()), blockTexture(ModBlocks.HOLY_PLANKS.get()));
+        fenceGateBlock(((FenceGateBlock) ModBlocks.HOLY_FENCE_GATE.get()), blockTexture(ModBlocks.HOLY_PLANKS.get()));
+        wallBlock(((WallBlock) ModBlocks.HOLY_WALL.get()), blockTexture(ModBlocks.HOLY_PLANKS.get()));
+        doorBlockWithRenderType(((DoorBlock) ModBlocks.HOLY_DOOR.get()), modLoc("block/holy_door_buttom"), modLoc("block/holy_door_top"), "cutout");
+        trapdoorBlockWithRenderType(((TrapDoorBlock) ModBlocks.HOLY_TRAPDOOR.get()), modLoc("block/holy_trapdoor"), true, "cutout");
+
+
     }
 
     private void blockWithItem(RegistryObject<Block> blockRegistryObject) {

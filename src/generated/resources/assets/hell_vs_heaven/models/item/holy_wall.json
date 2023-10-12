@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/wall_inventory",
+  "textures": {
+    "wall": "hell_vs_heaven:block/holy_planks"
+  }
+}

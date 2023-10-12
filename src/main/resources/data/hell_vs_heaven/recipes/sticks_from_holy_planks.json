@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "bark",
+  "key": {
+    "#": {
+      "item": "hell_vs_heaven:holy_planks"
+    }
+  },
+  "pattern": [
+    "#",
+    "#"
+  ],
+  "result": {
+    "count": 4,
+    "item": "minecraft:stick"
+  }
+}

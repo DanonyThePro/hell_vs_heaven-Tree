@@ -14,5 +14,6 @@
   "result": {
     "count": 3,
     "item": "hell_vs_heaven:holy_wood"
-  }
+  },
+  "show_notification": true
 }
