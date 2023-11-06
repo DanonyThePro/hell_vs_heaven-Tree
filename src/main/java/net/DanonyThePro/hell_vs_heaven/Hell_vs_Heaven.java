@@ -2,6 +2,8 @@ package net.DanonyThePro.hell_vs_heaven;
 
 import com.mojang.logging.LogUtils;
 import net.DanonyThePro.hell_vs_heaven.block.ModBlocks;
+import net.DanonyThePro.hell_vs_heaven.entity.ModEntities;
+import net.DanonyThePro.hell_vs_heaven.entity.client.BaphometRenderer;
 import net.DanonyThePro.hell_vs_heaven.item.ModCreativeModeTabs;
 import net.DanonyThePro.hell_vs_heaven.item.ModItems;
 import net.minecraft.client.renderer.entity.EntityRenderers;
@@ -29,6 +31,7 @@ public class Hell_vs_Heaven {
 
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
+        ModEntities.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
         MinecraftForge.EVENT_BUS.register(this);
@@ -116,6 +119,7 @@ public class Hell_vs_Heaven {
 
         if (event.getTab() == ModCreativeModeTabs.CM_TAB.get()) {
             event.accept(ModItems.HEARTCLEAVER);
+            event.accept(ModItems.BAPHOMET_SPAWN_EGG);
             event.accept(ModItems.RUBY);
             event.accept(ModBlocks.RUBY_ORE);
             event.accept(ModBlocks.DEEPSLATE_RUBY_ORE);
@@ -169,6 +173,9 @@ public class Hell_vs_Heaven {
 
     @Mod.EventBusSubscriber(modid = MOD_ID, bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
     public static class ClientModEvents {
-
+        @SubscribeEvent
+        public static void onClientSetup(FMLClientSetupEvent event) {
+            EntityRenderers.register(ModEntities.BAPHOMET.get(), BaphometRenderer::new);
+        }
     }
 }

@@ -53,6 +53,8 @@ public class ModItemModelProvider extends ItemModelProvider {
         evenSimplerBlockItem(ModBlocks.HOLY_PRESSURE_PLATE);
         evenSimplerBlockItem(ModBlocks.HOLY_FENCE_GATE);
 
+
+        withExistingParent(ModItems.BAPHOMET_SPAWN_EGG.getId().getPath(), mcLoc("item/template_spawn_egg"));
     }
 
     private ItemModelBuilder saplingItem(RegistryObject<Block> item) {

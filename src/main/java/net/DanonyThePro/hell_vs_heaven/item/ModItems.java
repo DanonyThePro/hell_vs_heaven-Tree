@@ -1,10 +1,8 @@
 package net.DanonyThePro.hell_vs_heaven.item;
 
 import net.DanonyThePro.hell_vs_heaven.Hell_vs_Heaven;
-import net.minecraft.world.item.Item;
-import net.minecraft.world.item.Rarity;
-import net.minecraft.world.item.SwordItem;
-import net.minecraft.world.item.Tiers;
+import net.DanonyThePro.hell_vs_heaven.entity.ModEntities;
+import net.minecraft.world.item.*;
 import net.minecraftforge.common.ForgeSpawnEggItem;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
@@ -33,13 +31,16 @@ public class ModItems {
     public static final RegistryObject<Item> SAPPHIRE = ITEMS.register("sapphire",
             () -> new Item(new Item.Properties()));
 
+    public static final RegistryObject<Item> BAPHOMET_SPAWN_EGG = ITEMS.register("baphomet_spawn_egg",
+            () -> new ForgeSpawnEggItem(ModEntities.BAPHOMET,000000,820000,
+                    new Item.Properties()));
+
     public static final RegistryObject<Item> HEARTCLEAVER = ITEMS.register("heartcleaver",
             () -> new SwordItem(Tiers.NETHERITE, 16, 0.1f, new Item.Properties()
                     .rarity(Rarity.EPIC)
                     .stacksTo(1)
                     .fireResistant()
                     .setNoRepair()));
-
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
